@@ -9,6 +9,7 @@ function getRandom(min, max) {
 }
   //Функция может не гарантировать верный результат, если в переданном диапазоне нет ни одного подходящего числа???
 
+//Функция для проверки максимальной длины строки
 function checkMaxStringLength(string, maxLength) {
   if (maxLength >= string.length) {
     return true
